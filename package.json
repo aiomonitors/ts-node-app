@@ -1,8 +1,8 @@
 {
-  "name": "proxy-dash-api",
+  "name": "ts-node-app",
   "version": "0.0.0",
   "main": "src/index.ts",
-  "repository": "https://github.com/aiomonitors/proxy-dash-api",
+  "repository": "https://github.com/aiomonitors/ts-node-app",
   "author": "Shihab Chowdhury",
   "license": "MIT",
   "scripts": {
