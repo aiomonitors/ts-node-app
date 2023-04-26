@@ -1,8 +1,6 @@
-FROM mhart/alpine-node:14.4.0
+FROM node:18-alpine
 
-WORKDIR /usr/app/template
-
-ENV NODE_ENV=production
+WORKDIR /usr/app
 
 ENV TZ=America/New_York
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone

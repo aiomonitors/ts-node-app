@@ -6,6 +6,6 @@ services:
             context: .
             dockerfile: ./Dockerfile.dev
         volumes: 
-            - ./src:/usr/app/template/src
+            - ./src:/usr/app/src
         environment:
             - SHIHAB=false
