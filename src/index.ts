@@ -1,4 +1,5 @@
-// eslint-disable-next-line no-console
-console.log('hi');
+import logger from './utils/logger';
+
+logger.info('hi', { hello: true });
 
 export default '';
